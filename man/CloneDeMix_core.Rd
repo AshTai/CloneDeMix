@@ -8,7 +8,7 @@ CloneDeMix_core(dataX, threshold = 10^-5, CNVstate = c(0:4), numbG = 4,
   baseline = NULL, iterationC = 10^3)
 }
 \arguments{
-\item{dataX}{Gene expression of a tumor sample.}
+\item{dataX}{DNA count of a tumor sample.}
 
 \item{threshold}{The threhold of convergence. Default is 10^-5.}
 
@@ -16,7 +16,7 @@ CloneDeMix_core(dataX, threshold = 10^-5, CNVstate = c(0:4), numbG = 4,
 
 \item{numbG}{The number of subclones.}
 
-\item{baseline}{A vector of length s. It's expression profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.}
+\item{baseline}{A vector of length s. It's a count profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.}
 
 \item{iterationC}{Maximum number of iterations. Default is 1000.}
 }

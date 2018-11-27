@@ -4,11 +4,11 @@
 #'
 #' @name CloneDeMix_core
 #' @author An-Shun Tai \email{daansh13@gmail.com}
-#' @param dataX Gene expression of a tumor sample.
+#' @param dataX DNA count of a tumor sample.
 #' @param threshold The threhold of convergence. Default is 10^-5.
 #' @param CNVstate A vector of considered copy number state.
 #' @param numbG The number of subclones.
-#' @param baseline A vector of length s. It's expression profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.
+#' @param baseline A vector of length s. It's a count profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.
 #' @param iterationC Maximum number of iterations. Default is 1000.
 #' @return A list containing MCP vector, the weight of copy number state, error rate, AIC, and BIC.
 #' @export

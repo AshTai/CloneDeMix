@@ -8,9 +8,9 @@ CloneDeMix(tumor, normal = NULL, threshold = 10^-5, iterC = 10^3,
   CNVstate = c(0:10), method = "aic")
 }
 \arguments{
-\item{tumor}{A G by N expression matrix of tumor samples, where G is the gene number and N is the sample size.}
+\item{tumor}{A G by N count matrix of tumor samples, where G is the gene number and N is the sample size.}
 
-\item{normal}{A vector of length s. It's expression profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.}
+\item{normal}{A vector of length s. It's DNA profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.}
 
 \item{threshold}{The threhold of convergence. Default is 10^-5.}
 

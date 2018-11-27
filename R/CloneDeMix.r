@@ -4,10 +4,10 @@
 #'
 #' @name CloneDeMix
 #' @author An-Shun Tai \email{daansh13@gmail.com}
-#' @param tumor A G by N expression matrix of tumor samples, where G is the gene number and N is the sample size.
+#' @param tumor A G by N count matrix of tumor samples, where G is the gene number and N is the sample size.
 #' @param threshold The threhold of convergence. Default is 10^-5.
 #' @param CNVstate A vector of considered copy number state.
-#' @param normal A vector of length s. It's expression profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.
+#' @param normal A vector of length s. It's DNA profile from the paired normal sample. If it's empty, the baseline is calculated from sample mean.
 #' @param iterationC Maximum number of iterations. Default is 1000.
 #' @param method The criteria for the final clone number.
 #' @return A list is containing an estimated CNV matrix, MCP matrix, and the number of predicted clone number.

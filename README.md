@@ -19,3 +19,6 @@ res <- CloneDeMix(tumor=ESCC_chr1$tumor, normal=ESCC_chr1$normal,threshold = 10^
   CNVstate = c(0:10), method = "aic")
 head(res$CNV); head(res$MCP)
 ```
+
+## Contact information
+Anshun Tai ([daansh13@gmail.com](mailto:daansh13@gmail.com))

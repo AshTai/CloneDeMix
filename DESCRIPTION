@@ -1,0 +1,13 @@
+Package: CloneDeMix
+Type: Package
+Title: Clone deconvolution via DNA sequencing
+Version: 0.1.0
+Author: An-Shun Tai
+Maintainer: An-Shun Tai <daansh13@gmail.com>
+Description: A two-way mixture Poisson model for the deconvolution of read-depth 
+             information and inferred the subclonal copy number of each target region, 
+             mutational cellular prevalence (MCP), subclone composition.
+License: GPL (>=3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

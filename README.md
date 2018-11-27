@@ -9,7 +9,7 @@ To install this package, please copy and paste following codes into your R sessi
 3. install_github("AshTai/CloneDeMix")
 
 ## Example
-```{r settings, include = FALSE}
+```{r settings}
 library(CloneDeMix)
 data("ESCC_chr1")
 res <- CloneDeMix(tumor=ESCC_chr1$tumor, normal=ESCC_chr1$normal,threshold = 10^-5, iterC = 10^3,
